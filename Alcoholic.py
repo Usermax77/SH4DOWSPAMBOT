@@ -29,7 +29,7 @@ from Utils import RAID, RRAID
 
 a = API_ID
 b = API_HASH 
-String_Session01 = STRING
+Session01 = STRING
 String_Session02 = STRING2
 String_Session03 = STRING3
 String_Session04 = STRING4
@@ -190,7 +190,7 @@ async def start_yukki():
     global Bot49
     global Bot50
 
-   if String_Session01:
+   if Session01:
         session_name = str(String_Session01)
         print("String 1 Found")
         Bot1 = TelegramClient(StringSession(session_name), a, b)
