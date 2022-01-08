@@ -190,7 +190,7 @@ async def start_yukki():
     global Bot49
     global Bot50
 
-   if Session01:
+   if Session01
         session_name = str(String_Session01)
         print("String 1 Found")
         Bot1 = TelegramClient(StringSession(session_name), a, b)
